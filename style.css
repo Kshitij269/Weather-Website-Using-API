@@ -1,0 +1,189 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display:flex;
+    padding-top: 30px;
+    padding-bottom: 30px;    
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.wrapper1{
+    display: flex;
+    border-radius: 20px;
+    width: 25vw;
+    height: 90vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+
+.sidebar{
+    width:40dvw;
+    padding-top: 14px;
+    padding-left:10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color:rgba(0, 233, 250, 0.21);
+    border-radius: 20px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.button{
+    display: inline-flex;
+    position: relative;
+    width:22%;
+    justify-content: center;
+    padding: auto;   
+}
+
+.search input{
+    border: 1px solid black;
+    padding: 0 15px;
+    width:75%;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    padding-top: 1vh;
+    position: relative;
+}
+.block {
+    display: inline-flex;
+    margin-top: 3vh;
+    margin-left: 3vh;
+    font-size: 6vh;
+
+}
+
+#location{
+    margin: 10px;
+    margin-left: 3vh;
+    margin-bottom: 3vh;    
+    font-size: 3vh;
+}
+
+#time{
+    margin-top: 3vh;
+    margin-left: 3vh;
+    font-size: 4vh;
+}
+
+#condition{
+    margin-top: 3vh;
+    margin-left: 3vh;
+    font-size: 4vh;
+}
+
+.wrapper2{
+    border-radius: 20px;
+    width: 75vw;
+    height: 90vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left: 1vw;
+    padding :1vh;
+    background-color:rgba(0, 233, 250, 0.21);
+}
+
+#weather-stats{
+    display: flex;
+    justify-content:center;
+    font-size: 5vh;
+    position: relative;
+}
+.container1{
+    display: flex;
+    height:35vh;
+    width:12vw;
+    background-color:rgba(0, 233, 250, 0.51);
+    border-radius: 20px;
+    padding: 2px;
+    margin-left:0.1vw;
+    justify-content: center;
+    font-size: larger;
+    margin-top: 10px;
+    }
+
+.data1 {
+    flex-wrap: wrap;
+    display: inline-flex;
+    margin-top:5vh;
+    justify-content: space-between;
+    margin-left: 1px;
+}
+.heading{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+
+.container1:hover{
+    box-shadow: 5px 2px 30px blue;
+}
+
+#wind-data{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+#wind-direction-data{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+#precipitaion-data{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+#pressure-data{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+#humidity-data{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+.maxtemp-data{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+.mintemp-data{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+.sunrise-data{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+.sunset-data{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+.pollution-data{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
